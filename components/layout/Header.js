@@ -27,161 +27,11 @@ const Header = ({
 
     return (
         <>
-            <header className="header-area header-style-1 header-height-2">
-                <div className="mobile-promotion">
-                    <span>
-                        Grand opening, <strong>up to 15%</strong> off all items.
-                        Only <strong>3 days</strong> left
-                    </span>
-                </div>
-                {/* <div className="header-top header-top-ptb-1 d-none d-lg-block">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-xl-3 col-lg-4">
-                                <div className="header-info">
-                                    <ul>
-                                        <li>
-                                            <Link href="/page-about">
-                                                <a>About Us</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/page-account">
-                                                <a>My Account</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/shop-wishlist">
-                                                <a>Wishlist</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/page-account">
-                                                <a>Order Tracking</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-xl-6 col-lg-4">
-                                <div className="text-center">
-                                    <div
-                                        id="news-flash"
-                                        className="d-inline-block"
-                                    >
-                                        <ul>
-                                            <li>
-                                                Get great devices up to 50% off
-                                                <Link href="/shop-grid-right">
-                                                    <a> View details</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-4">
-                                <div className="header-info header-info-right">
-                                    <ul>
-                                        <li>
-                                            Need help? Call Us:{" "}
-                                            <strong className="text-brand">
-                                                {" "}
-                                                + 1800 900
-                                            </strong>
-                                        </li>
-                                        <li>
-                                            <Link href="/#">
-                                                <a className="language-dropdown-active">
-                                                    <i className="fi-rs-world"></i>
-                                                    English
-                                                    <i className="fi-rs-angle-small-down"></i>
-                                                </a>
-                                            </Link>
-                                            <ul className="language-dropdown">
-                                                <li>
-                                                    <Link href="/#">
-                                                        <a>
-                                                            <img
-                                                                src="/img/themepic/flag-fr.png"
-                                                                alt=""
-                                                            />
-                                                            Français
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/#">
-                                                        <a>
-                                                            <img
-                                                                src="/img/themepic/flag-dt.png"
-                                                                alt=""
-                                                            />
-                                                            Deutsch
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/#">
-                                                        <a>
-                                                            <img
-                                                                src="/img/themepic/flag-ru.png"
-                                                                alt=""
-                                                            />
-                                                            Pусский
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="language-dropdown-active"
-                                                href="#"
-                                            >
-                                                USD{" "}
-                                                <i className="fi-rs-angle-small-down"></i>
-                                            </a>
-                                            <ul className="language-dropdown">
-                                                <li>
-                                                    <a href="#">
-                                                        <img
-                                                            src="/img/themepic/flag-fr.png"
-                                                            alt=""
-                                                        />
-                                                        INR
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <img
-                                                            src="/img/themepic/flag-dt.png"
-                                                            alt=""
-                                                        />
-                                                        MBP
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <img
-                                                            src="/img/themepic/flag-ru.png"
-                                                            alt=""
-                                                        />
-                                                        EU
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-                <div className="Jba-header-middle Jba-header-middle-ptb-1 d-none d-lg-block">
+            <header className="header-area jba-header">
+                <div className="Jba-header-top  d-none d-lg-block">
                     <div className="container">
                         <div className="Jba-header-wrap">
-                            <div className="logo jba-logo-width-1">
+                            <div className="logo jba-logo-width">
                                 <Link href="/">
                                     <a>
                                         <img
@@ -192,150 +42,20 @@ const Header = ({
                                 </Link>
                             </div>
                             <div className="jba-header-right">
-                                <div className="search-style-2">
+                                <div className="jba-search-head">
                                     <Search />
                                 </div>
                                 <div className="jba-header-action-right">
-                                    <div className="header-action-2">
-                                        {/* <div className="search-location">
-                                            <form action="#">
-                                                <select className="select-active">
-                                                    <option>
-                                                        Your Location
-                                                    </option>
-                                                    <option>Alabama</option>
-                                                    <option>Alaska</option>
-                                                    <option>Arizona</option>
-                                                    <option>Delaware</option>
-                                                    <option>Florida</option>
-                                                    <option>Georgia</option>
-                                                    <option>Hawaii</option>
-                                                    <option>Indiana</option>
-                                                    <option>Maryland</option>
-                                                    <option>Nevada</option>
-                                                    <option>New Jersey</option>
-                                                    <option>New Mexico</option>
-                                                    <option>New York</option>
-                                                </select>
-                                            </form>
-                                        </div> */}
-                                        {/* <div className="header-action-icon-2">
-                                            <Link href="/shop-compare">
-                                                <a>
-                                                    <img
-                                                        className="svgInject"
-                                                        alt="Evara"
-                                                        src="/img/themepic/icons/icon-compare.svg"
-                                                    />
-                                                    <span className="pro-count blue">
-                                                        {totalCompareItems}
-                                                    </span>
-                                                </a>
-                                            </Link>
-                                            <Link href="/shop-compare">
-                                                <a>
-                                                    <span className="lable ml-0">
-                                                        Compare
-                                                    </span>
-                                                </a>
-                                            </Link>
-                                        </div> */}
-                                        <div className="header-action-icon-2">
-                                            <Link href="/shop-wishlist">
-                                                <a>
-                                                    <img
-                                                        className="svgInject"
-                                                        alt="Evara"
-                                                        src="/img/themepic/icons/icon-compare.svg"
-                                                    />
-                                                    {/* <span className="pro-count blue">
-                                                        {totalWishlistItems}
-                                                    </span> */}
-                                                </a>
-                                            </Link>
-                                            <Link href="/shop-wishlist">
-                                                <span className="lable">
-                                                    Wishlist
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <div className="header-action-icon-2">
-                                            <Link href="/shop-cart">
-                                                <a className="mini-cart-icon">
-                                                    <img
-                                                        alt="Evara"
-                                                        src="/img/themepic/icons/icon-cart.svg"
-                                                    />
-                                                    {/* <span className="pro-count blue">
-                                                        {totalCartItems}
-                                                    </span> */}
-                                                </a>
-                                            </Link>
-                                            <Link href="/shop-cart">
-                                                <a>
-                                                    <span className="lable">
-                                                        Cart
-                                                    </span>
-                                                </a>
-                                            </Link>
-                                        </div>
+                                <div className="hotline d-none d-lg-flex">
+                                <img
+                                    src="/img/themepic/icons/icon-headphone.svg"
+                                    alt="hotline"
+                                />
 
-                                        <div className="header-action-icon-2">
-                                            <Link href="/page-account"><a>
-                                                <img
-                                                    className="svgInject"
-                                                    alt="Nest"
-                                                    src="/img/themepic/icons/icon-user.svg"
-                                                />
-                                            </a></Link>
-                                            <Link href="/page-account"><a>
-                                                <span className="lable ml-0">
-                                                    Account
-                                                </span>
-                                            </a></Link>
-                                            <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
-                                                <ul>
-                                                    <li>
-                                                        <Link href="/page-account">
-                                                             <a>
-                                                                <i className="fi fi-rs-user mr-10"></i>
-                                                                My Account
-                                                            </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/page-account"><a>
-                                                            <i className="fi fi-rs-location-alt mr-10"></i>
-                                                            Order Tracking
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/page-account"><a>
-                                                            <i className="fi fi-rs-label mr-10"></i>
-                                                            My Voucher
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-wishlist"><a>
-                                                            <i className="fi fi-rs-heart mr-10"></i>
-                                                            My Wishlist
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/page-account"><a>
-                                                            <i className="fi fi-rs-settings-sliders mr-10"></i>
-                                                            Setting
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/page-login"><a>
-                                                            <i className="fi fi-rs-sign-out mr-10"></i>
-                                                            Sign out
-                                                        </a></Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <p>
+                                987 654 3210<span>24/7 Support</span>
+                                </p>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +70,7 @@ const Header = ({
                 >
                     <div className="container">
                         <div className="Jba-header-wrap header-space-between position-relative">
-                            <div className="logo jba-logo-width-1 d-block d-lg-none">
+                            <div className="logo jba-logo-width d-block d-lg-none">
                                 <Link href="/">
                                     <a>
                                         <img
@@ -361,224 +81,13 @@ const Header = ({
                                 </Link>
                             </div>
                             <div className="header-nav d-none d-lg-flex">
-                                <div className="main-categori-wrap d-none d-lg-block">
-                                    {/* <a
-                                        className="categories-button-active"
-                                        onClick={handleToggle}
-                                    >
-                                        <span className="fi-rs-apps"></span>
-                                        <span className="et">Browse</span> All
-                                       Shop All
-                                        <i className="fi-rs-angle-down"></i>
-                                    </a> */}
-
-                                    {/* <div
-                                        className={
-                                            isToggled
-                                                ? "categories-dropdown-wrap categories-dropdown-active-large font-heading open"
-                                                : "categories-dropdown-wrap categories-dropdown-active-large font-heading"
-                                        }
-                                    >
-                                        <div className="d-flex categori-dropdown-inner">
-                                            <CategoryProduct2/>
-                                            <CategoryProduct3/>
-                                        </div>
-                                        <div
-                                            className="more_slide_open"
-                                            style={{ display: "none" }}
-                                        >
-                                            <div className="d-flex categori-dropdown-inner">
-                                                <ul>
-                                                    <li>
-                                                        <Link href="/products"><a>
-                                                            {" "}
-                                                            <img
-                                                                src="/img/themepic/icons/icon-1.svg"
-                                                                alt=""
-                                                            />
-                                                            Milks and Dairies
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/products"><a>
-                                                            {" "}
-                                                            <img
-                                                                src="/img/themepic/icons/icon-2.svg"
-                                                                alt=""
-                                                            />
-                                                            Clothing & beauty
-                                                        </a></Link>
-                                                    </li>
-                                                </ul>
-                                                <ul className="end">
-                                                    <li>
-                                                        <Link href="/products"><a>
-                                                            {" "}
-                                                            <img
-                                                                src="/img/themepic/icons/icon-3.svg"
-                                                                alt=""
-                                                            />
-                                                            Wines & Drinks
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/products"><a>
-                                                            {" "}
-                                                            <img
-                                                                src="/img/themepic/icons/icon-4.svg"
-                                                                alt=""
-                                                            />
-                                                            Fresh Seafood
-                                                        </a></Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="more_categories">
-                                            <span className="icon"></span>{" "}
-                                            <span className="heading-sm-1">
-                                                Show more...
-                                            </span>
-                                        </div>
-                                    </div> */}
-                                </div>
-                                <div className="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block  font-heading">
+                                <div className="jab-menu jab-menu-padding jab-menu-lh-2 d-none d-lg-block  font-heading">
                                     <nav>
                                         <ul>
-                                            <li>
-                                               
-                                                <Link href="/products"><a>
-                                                   Shop All
-                                                </a>
-                                                </Link>
-                                            </li> 
-                                            <li>
-                                                <Link href="/">
-                                                    <a className="active">
-                                                      Rings
-                                                    </a>
-                                                </Link>
-                                                {/* <ul className="sub-menu">
-                                                    <li>
-                                                        <Link href="/">
-                                                            <a>Home 1</a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/index-2">
-                                                            <a>Home 2</a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/index-3">
-                                                            <a>Home 3</a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/index-4">
-                                                            <a>Home 4</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul> */}
-                                            </li>
-                                            <li>
-                                                <Link href="/page-about">
-                                                    <a>Earings</a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/shop-grid-right">
-                                                    <a>
-                                                    Earings
-                                                        <i className="fi-rs-angle-down"></i>
-                                                    </a>
-                                                </Link>
-                                                {/* <ul className="sub-menu">
-                                                    <li>
-                                                        <Link href="/shop-grid-right">
-                                                            <a>
-                                                                Shop Grid –
-                                                                Right Sidebar
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/products">
-                                                            <a>
-                                                                Shop Grid – Left
-                                                                Sidebar
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-list-right">
-                                                            <a>
-                                                                Shop List –
-                                                                Right Sidebar
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-list-left">
-                                                            <a>
-                                                                Shop List – Left
-                                                                Sidebar
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-fullwidth">
-                                                            <a>Shop - Wide</a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-filter">
-                                                            <a>Shop - Filter</a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-wishlist">
-                                                            <a>
-                                                                Shop – Wishlist
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-cart">
-                                                            <a>Shop – Cart</a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-checkout">
-                                                            <a>
-                                                                Shop – Checkout
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/shop-compare">
-                                                            <a>
-                                                                Shop – Compare
-                                                            </a>
-                                                        </Link>
-                                                    </li>
-                                                </ul> */}
-                                            </li>
-
-                                            <li>
-                                                <a href="#">Bracelets <i className="fi-rs-angle-down"></i></a>
-                                                {/* <ul className="sub-menu">
-                                                    <li><Link href="/vendors"><a>Vendors Grid</a></Link></li>
-                                                    <li><Link href="/vendors-list"><a>Vendors List</a></Link></li>
-                                                    <li><Link href="/vendor-dashboard"><a>Vendor Dashboard</a></Link></li>
-                                                    <li><Link href="/vendor-guide"><a>Vendor Guide</a></Link></li>
-                                                </ul> */}
-                                            </li>
-
-                                            <li className="position-static">
+                                        <li className="position-static">
                                                 <Link href="/#">
                                                     <a>
-                                                        Mega menu
+                                                        Shop All
                                                         <i className="fi-rs-angle-down"></i>
                                                     </a>
                                                 </Link>
@@ -746,6 +255,39 @@ const Header = ({
                                                 </ul>
                                             </li>
                                             <li>
+                                                <Link href="/">
+                                                    <a className="active">
+                                                      Rings
+                                                    </a>
+                                                </Link>
+                                                {/* <ul className="sub-menu">
+                                                    <li>
+                                                        <Link href="/">
+                                                            <a>test</a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/index-2">
+                                                            <a>test</a>
+                                                        </Link>
+                                                    </li>
+                                                </ul> */}
+                                            </li>
+                                            <li>
+                                                <Link href="/shop-grid-right">
+                                                    <a>
+                                                    Earings
+                                                        <i className="fi-rs-angle-down"></i>
+                                                    </a>
+                                                </Link>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">Bracelets <i className="fi-rs-angle-down"></i></a>
+                                            </li>
+
+                                           
+                                            <li>
                                                 <Link href="/blog-category-grid">
                                                     <a>
                                                     Pendents
@@ -778,18 +320,151 @@ const Header = ({
                                     </nav>
                                 </div>
                             </div>
-                            <div className="hotline d-none d-lg-flex">
-                                <img
-                                    src="/img/themepic/icons/icon-headphone.svg"
-                                    alt="hotline"
-                                />
+                          
+                            <div className="jba-header-action-right">
+                                    <div className="jab-header-pic">
+                                        {/* <div className="search-location">
+                                            <form action="#">
+                                                <select className="select-active">
+                                                    <option>
+                                                        Your Location
+                                                    </option>
+                                                    <option>Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>Arizona</option>
+                                                    <option>Delaware</option>
+                                                    <option>Florida</option>
+                                                    <option>Georgia</option>
+                                                    <option>Hawaii</option>
+                                                    <option>Indiana</option>
+                                                    <option>Maryland</option>
+                                                    <option>Nevada</option>
+                                                    <option>New Jersey</option>
+                                                    <option>New Mexico</option>
+                                                    <option>New York</option>
+                                                </select>
+                                            </form>
+                                        </div> */}
+                                        {/* <div className="jba-header-action-icon">
+                                            <Link href="/shop-compare">
+                                                <a>
+                                                    <img
+                                                        className="svgInject"
+                                                        alt="Evara"
+                                                        src="/img/themepic/icons/icon-compare.svg"
+                                                    />
+                                                    <span className="pro-count blue">
+                                                        {totalCompareItems}
+                                                    </span>
+                                                </a>
+                                            </Link>
+                                            <Link href="/shop-compare">
+                                                <a>
+                                                    <span className="lable ml-0">
+                                                        Compare
+                                                    </span>
+                                                </a>
+                                            </Link>
+                                        </div> */}
+                                        <div className="jba-header-action-icon">
+                                            <Link href="/shop-wishlist">
+                                                <a>
+                                                    <img
+                                                        className="svgInject"
+                                                        alt="Evara"
+                                                        src="/img/themepic/icons/icon-compare.svg"
+                                                    />
+                                                    <span className="pro-count blue">
+                                                      2
+                                                    </span> 
+                                                </a>
+                                            </Link>
+                                            <Link href="/shop-wishlist">
+                                                <span className="lable">
+                                                    Wishlist
+                                                </span>
+                                            </Link>
+                                        </div>
+                                        <div className="jba-header-action-icon">
+                                            <Link href="/shop-cart">
+                                                <a className="mini-cart-icon">
+                                                    <img
+                                                        alt="Evara"
+                                                        src="/img/themepic/icons/icon-cart.svg"
+                                                    />
+                                                    <span className="pro-count blue">
+                                                      5
+                                                    </span> 
+                                                </a>
+                                            </Link>
+                                            <Link href="/shop-cart">
+                                                <a>
+                                                    <span className="lable">
+                                                        Cart
+                                                    </span>
+                                                </a>
+                                            </Link>
+                                        </div>
 
-                                <p>
-                                987 654 3210<span>24/7 Support</span>
-                                </p>
-                            </div>
+                                        <div className="jba-header-action-icon">
+                                            <Link href="/page-account"><a>
+                                                <img
+                                                    className="svgInject"
+                                                    alt="Nest"
+                                                    src="/img/themepic/icons/icon-user.svg"
+                                                />
+                                            </a></Link>
+                                            <Link href="/page-account"><a>
+                                                <span className="lable">
+                                                    Account
+                                                </span>
+                                            </a></Link>
+                                            <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
+                                                <ul>
+                                                    <li>
+                                                        <Link href="/page-account">
+                                                             <a>
+                                                                <i className="fi fi-rs-user mr-10"></i>
+                                                                My Account
+                                                            </a></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/page-account"><a>
+                                                            <i className="fi fi-rs-location-alt mr-10"></i>
+                                                            Order Tracking
+                                                        </a></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/page-account"><a>
+                                                            <i className="fi fi-rs-label mr-10"></i>
+                                                            My Voucher
+                                                        </a></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/shop-wishlist"><a>
+                                                            <i className="fi fi-rs-heart mr-10"></i>
+                                                            My Wishlist
+                                                        </a></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/page-account"><a>
+                                                            <i className="fi fi-rs-settings-sliders mr-10"></i>
+                                                            Setting
+                                                        </a></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/page-login"><a>
+                                                            <i className="fi fi-rs-sign-out mr-10"></i>
+                                                            Sign out
+                                                        </a></Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div className="header-action-icon-2 d-block d-lg-none">
+                            <div className="jba-header-action-icon d-block d-lg-none">
                                 <div className="burger-icon burger-icon-white">
                                     <span className="burger-icon-top"></span>
                                     <span className="burger-icon-mid"></span>
@@ -798,8 +473,8 @@ const Header = ({
                             </div>
 
                             <div className="jba-header-action-right d-block d-lg-none">
-                                <div className="header-action-2">
-                                    <div className="header-action-icon-2">
+                                <div className="jab-header-pic">
+                                    <div className="jba-header-action-icon">
                                         <Link href="/shop-wishlist">
                                             <a>
                                                 <img
@@ -812,7 +487,7 @@ const Header = ({
                                             </a>
                                         </Link>
                                     </div>
-                                    <div className="header-action-icon-2">
+                                    <div className="jba-header-action-icon">
                                         <Link href="/shop-wishlist">
                                             <a>
                                                 <img
@@ -825,7 +500,7 @@ const Header = ({
                                             </a>
                                         </Link>
                                     </div>
-                                    <div className="header-action-icon-2">
+                                    <div className="jba-header-action-icon">
                                         <Link href="/shop-cart">
                                             <a className="mini-cart-icon">
                                                 <img
@@ -925,7 +600,7 @@ const Header = ({
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="header-action-icon-2 d-block d-lg-none">
+                                    <div className="jba-header-action-icon d-block d-lg-none">
                                         <div
                                             className="burger-icon burger-icon-white"
                                             onClick={toggleClick}
