@@ -16,7 +16,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="pb-20">
+      <section className="pb">
         <div className="container">
           <div className="filter-bg">
             <div className="row">

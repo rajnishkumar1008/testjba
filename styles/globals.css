@@ -11215,8 +11215,8 @@ height:44px
   font-weight: normal;
 }
 .filter-bg{
-  background-color:#9bdbd6;
-  padding:30px
+  /* background-color:#9bdbd6; */
+  padding:30px 30px 20px 0px
 }
 .prodect-filter-wrper{
   border: 1px solid #f4d5d2;
