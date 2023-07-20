@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductMainDetails from '../../components/ecommerce/ProductMainDetails';
 import Link from 'next/link';
+import ProductDetailsnew from '../../components/ecommerce/ProductDetailsnew';
 // import Breadcrumb from '../../components/layout/Breadcrumbjs';
 
 const Slug = () => {
@@ -18,7 +19,7 @@ const Slug = () => {
                     </div>
                 </div>
             </div>
-            <ProductMainDetails />
+            <ProductDetailsnew />
         </>
     );
 }
