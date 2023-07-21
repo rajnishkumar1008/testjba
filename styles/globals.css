@@ -10940,7 +10940,7 @@ footer .hotline img {
 .product-cart-wrap .jba-product-action button:after,
 .product-cart-wrap .jba-product-action a.action-btn:after {
   bottom: 60%;
-  left: 50%;
+  left: -50%;
   position: absolute;
   white-space: nowrap;
   border-radius: 5px;
@@ -11438,12 +11438,122 @@ margin-bottom:40px
     background-color:#f4d5d2;
     color: #4b4b4b;
   }
-  .jaba-our-exp{
+  .jba-our-exp{
     display:flex;
-    margin-bottom:30px;
+    margin-bottom: 40px;
     justify-content:center;
     text-align: center;
   }
-  .jaba-our-exp span{
-    display:block
+  .jba-our-exp .v-h video{
+    position:relative;
+    margin-bottom: 12px;
   }
+  .jba-our-exp .v-h{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .jba-our-exp .v-h:before{
+    content: '';
+    position: absolute;
+    background: #f5f4f6;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: -10px;
+    border-radius: 50%;
+
+  }
+  .jba-our-exp span{
+    display:block;
+    font-size: 16px;
+    line-height: normal;
+    color: #000;
+  }
+  .jba-prod-dec-bootm-acc{}
+  .jab-accordion{
+
+  }
+  .jab-accordion>.accordion-item{
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid #f4d5d2;
+  }
+  .jab-accordion .accordion-item .accordion-button{
+    background: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .jab-accordion .accordion-item .accordion-button:not(.collapsed){
+    box-shadow:none;
+    color:#d66c6c
+  }
+  .jab-accordion .accordion-item .accordion-button:focus{
+box-shadow:none
+  }
+.jba-discount-info-box{
+  display: flex;
+    align-items: center;
+}
+.jba-discount-info-box .jba-discount-info{
+  background-color: #fef3f3;
+  padding:15px 20px;
+  margin-right:20px;
+  width: 250px;
+}
+.jba-discount-info-box .jba-discount-info span{
+  display:block
+}
+.jba-discount-info-box .jba-discount-info .h-tag-h{
+  font-size: 14px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+.jba-discount-info-box .jba-discount-info .h-tag{
+  font-size: 12px;
+  color: #4b4b4b;
+}
+.jba-discount-info-box .jba-discount-info .h-tag-term a{
+  font-size: 12px;
+  font-weight: 500;
+  color: #d66c6c;
+}
+.jba-discount-info-box .jba-discount-info .h-tag-term a:hover{
+  color:#000
+}
+.pro-single-details-inf .pro-list-1 {
+  margin-bottom:30px
+}
+.pro-single-details-inf .pro-list-1 .table {
+  width:80%
+}
+.pro-single-details-inf .pro-list-1 .table >tbody>tr>th,.pro-single-details-inf .pro-list-1 .table >tbody>tr>td{
+  padding: 0.6rem 1.4rem;
+  color:#3e4751
+}
+.pro-single-details-inf .pro-list-1 .table >tbody>tr>th{
+ font-weight:500
+}
+.pro-single-details-inf .moro-inf-1{
+  margin-bottom:30px
+}
+.pro-single-details-inf h4{
+  font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pro-single-details-inf  p{
+  font-size: 14px;
+  color: #545b64
+}
+.pro-single-details-inf ul{
+  list-style: disc;
+    padding-left: 1.5rem;
+}
+.pro-single-details-inf li{
+  margin-bottom:5px
+}

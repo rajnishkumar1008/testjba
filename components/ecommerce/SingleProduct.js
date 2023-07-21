@@ -37,19 +37,19 @@ const SingleProduct = () => {
           
           </div>
           <div className="jba-product-action">
-            <a
+            {/* <a
               aria-label="Quick view"
               className="action-btn hover-up"
               data-bs-toggle="modal"
             >
               <QuickView />
-            </a>
+            </a> */}
             <a aria-label="Add To Wishlist" className="action-btn hover-up">
               <i className="bi bi-heart-fill"></i>
             </a>
-            <a aria-label="Compare" className="action-btn hover-up">
+            {/* <a aria-label="Compare" className="action-btn hover-up">
               <i className="bi bi-shuffle"></i>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="product-content-wrap">

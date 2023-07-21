@@ -4,6 +4,7 @@ import {
   AccordionBody,
   AccordionHeader,
   AccordionItem,
+  Table
 } from "reactstrap";
 import ThumbSlider from "../sliders/Thumb";
 
@@ -54,7 +55,11 @@ const ProductDetailsnew = () => {
                       <div className="heading">
                         <h1>Pearl Diamond Hoops</h1>
                         <span>SKU#JBAM09</span>
-                        <p>We offer a six month warranty for all our products, including Custom made items. warranty for all our products warranty for all our products.</p>
+                        {/* <p>
+                          We offer a six month warranty for all our products,
+                          including Custom made items. warranty for all our
+                          products warranty for all our products.
+                        </p> */}
                       </div>
                     </div>
                     <div className="jab-product-option">
@@ -74,7 +79,7 @@ const ProductDetailsnew = () => {
                           </select>
                         </div>
                         <div className="mb-3">
-                          <label for="Size" className="form-label">
+                          <label htmlFor="Size" className="form-label">
                             Expected Delivery
                           </label>
                           <div className="input-group mb-3">
@@ -91,8 +96,14 @@ const ProductDetailsnew = () => {
                               Check
                             </button>
                             <div className="pin-hide-show">
-                                <span className="top">Free Delivery by 25th Aug</span>
-                                <span className="info">For Early Delivery.<a href="">Contact Us</a></span>
+                              <a href="#">
+                                <span className="top">
+                                  Free Delivery by 25th Aug
+                                </span>
+                                <span className="info">
+                                  For Early Delivery.<a>Contact Us</a>
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -119,115 +130,158 @@ const ProductDetailsnew = () => {
                         Buy Now
                       </button>
                     </div>
-                    <div className="jaba-our-exp">
+                    <div className="jba-our-exp">
                       <div className="card-img">
-                        <img
-                          src="/img/themepic/icons/icon-headphone.svg"
-                          alt="pic"
-                        />
+                        <div className="v-h">
+                          <video autoPlay loop muted>
+                            <source
+                              src="/videos/Exuisite-Craftmanship.mp4"
+                              type="video/mp4"
+                            />
+                          </video>
+                        </div>
                         <span>
                           Exquisite <br /> Craftsmanship
                         </span>
                       </div>
                       <div className="card-img">
-                        <img
-                          src="/img/themepic/icons/icon-headphone.svg"
-                          alt="pic"
-                        />
+                        <div className="v-h">
+                          <video autoPlay loop muted>
+                            <source
+                              src="/videos/Bis-logo.mp4"
+                              type="video/mp4"
+                            />
+                          </video>
+                        </div>
                         <span>
                           100% Hallmarked <br /> Jewelry
                         </span>
                       </div>
                       <div className="card-img">
-                        <img
-                          src="/img/themepic/icons/icon-headphone.svg"
-                          alt="pic"
-                        />
+                        <div className="v-h">
+                          <video autoPlay loop muted>
+                            <source
+                              src="/videos/Giftworthy-packaging.mp4"
+                              type="video/mp4"
+                            />
+                          </video>
+                        </div>
                         <span>
                           Gift-Worthy <br /> Packaging
                         </span>
                       </div>
                     </div>
                     <div className="jba-prod-dec-bootm-acc">
-                      <Accordion open={open} toggle={toggle}>
+                      <Accordion
+                        className="jab-accordion"
+                        open={open}
+                        toggle={toggle}
+                      >
                         <AccordionItem>
-                          <AccordionHeader targetId="1">
-                          Special Offers
+                          <AccordionHeader targetId="1" tag="h3">
+                            Special Offers
                           </AccordionHeader>
                           <AccordionBody accordionId="1">
                             <div className="jba-discount-info-box">
-                                <div className="jba-discount-info">
-                                    <span className="h-tag">
-                                    Get 20% OFF on First Purchase
-                                    </span>
-                                    <span className="h-tag-term">
-                                        <a href="#"> Term & Conditions</a>
-                                    </span>
-                                </div>
-                                <div className="jba-discount-info">
-                                    <span className="h-tag">
-                                    Festive offer Get 10% OFF
-                                    </span>
-                                    <span className="h-tag-term">
-                                        <a href="#"> Term & Conditions</a>
-                                    </span>
-                                </div>
+                              <div className="jba-discount-info">
+                                <span className="h-tag-h">FLAT20</span>
+                                <span className="h-tag">
+                                  Get 20% OFF on First Purchase
+                                </span>
+                                <span className="h-tag-term">
+                                  <a href="#"> Term & Conditions</a>
+                                </span>
+                              </div>
+                              <div className="jba-discount-info">
+                                <span className="h-tag-h">FESTIVE10</span>
+                                <span className="h-tag">
+                                  Festive offer Get 10% OFF
+                                </span>
+                                <span className="h-tag-term">
+                                  <a href="#"> Term & Conditions</a>
+                                </span>
+                              </div>
                             </div>
                           </AccordionBody>
                         </AccordionItem>
                         <AccordionItem>
-                          <AccordionHeader targetId="2">
-                          Product Description
+                          <AccordionHeader targetId="2" tag="h3">
+                            Product Description
                           </AccordionHeader>
                           <AccordionBody accordionId="2">
-                          <div className="pro-single-details-inf">
-                                <ul>
-                                    <li>Style <span> Trendy, Engagement</span></li>
-                                    <li>Ideal For <span>Women</span></li>
-                                    <li>Occasion <span>Daily wear, Work wear, Party wear</span></li>
-                                    <li>Material <span>Gold, Diamond</span></li>
-                                    <li>Purity <span>14K</span></li>
-                                    <li>Gross Weight <span>0.89 ct</span></li>
-                                    <li>Diamond Weight <span>0.1 ct</span></li>
-                                </ul>
-                                <div className="moro-inf-1">
+                            <div className="pro-single-details-inf">
+                              <div className="pro-list-1">
+                                <Table>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">Style</th>
+                                      <td>Trendy, Engagement</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Ideal For</th>
+                                      <td>Women</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Occasion</th>
+                                      <td>Gold, Diamond</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Material</th>
+                                      <td>Trendy, Engagement</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Purity</th>
+                                      <td>14K</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Gross Weight</th>
+                                      <td>0.89 ct</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Diamond Weight</th>
+                                      <td>0.1 ct</td>
+                                    </tr>
+                                  </tbody>
+                                </Table>
+                            
+                              </div>
+                              <div className="moro-inf-1">
                                 <h4>More Detail</h4>
-                                <p>We offer a six month warranty for all our products, including Custom made items. The warranty is voided if the items have been tampered with or have been subjected to physical injury.</p>
-                                <p>We offer a 14 Day Return Policy for all purchases. Please note Custom Orders are final sale due to their nature. If you have any other doubt, please reach out to us. We are always happy to serve you.</p>
-                                </div>
-                                <div className="moro-inf-2">
+                                <p>
+                                  We offer a six month warranty for all our
+                                  products, including Custom made items. The
+                                  warranty is voided if the items have been
+                                  tampered with or have been subjected to
+                                  physical injury.
+                                </p>
+                                <p>
+                                  We offer a 14 Day Return Policy for all
+                                  purchases. Please note Custom Orders are final
+                                  sale due to their nature. If you have any
+                                  other doubt, please reach out to us. We are
+                                  always happy to serve you.
+                                </p>
+                              </div>
+                              <div className="moro-inf-2">
                                 <h4>Shipping & Packaging Details</h4>
                                 <p>Dispatches in 4 - 10 business days</p>
                                 <ul>
-                                    <li>Delivery in 3 - 5 days</li>
-                                    <li>Shipped by UPS with Tracking</li>
-                                    <li>Packaged in pouch/box</li>
+                                  <li>Delivery in 3 - 5 days</li>
+                                  <li>Shipped by UPS with Tracking</li>
+                                  <li>Packaged in pouch/box</li>
                                 </ul>
-                                </div>
-                               
-                               
-
-
-
-
-
-
-
-
+                              </div>
                             </div>
                           </AccordionBody>
                         </AccordionItem>
                         <AccordionItem>
-                          <AccordionHeader targetId="3">
-                          Reviews
+                          <AccordionHeader targetId="3" tag="h3">
+                            Reviews
                           </AccordionHeader>
-                          <AccordionBody accordionId="3">
-                           
-                          </AccordionBody>
+                          <AccordionBody accordionId="3"></AccordionBody>
                         </AccordionItem>
                       </Accordion>
                     </div>
-                   
                   </div>
                 </div>
               </div>
