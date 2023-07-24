@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RelatedSlider from "../sliders/Related";
+
 import {
   Accordion,
   AccordionBody,

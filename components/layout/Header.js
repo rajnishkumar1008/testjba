@@ -464,13 +464,7 @@ const Header = ({
                                     </div>
                                 </div>
 
-                            <div className="jba-header-action-icon d-block d-lg-none">
-                                <div className="burger-icon burger-icon-white">
-                                    <span className="burger-icon-top"></span>
-                                    <span className="burger-icon-mid"></span>
-                                    <span className="burger-icon-bottom"></span>
-                                </div>
-                            </div>
+                           
 
                             <div className="jba-header-action-right d-block d-lg-none">
                                 <div className="jab-header-pic">
@@ -481,25 +475,13 @@ const Header = ({
                                                     alt="Evara"
                                                     src="/img/themepic/icons/icon-compare.svg"
                                                 />
-                                                {/* <span className="pro-count white">
-                                                    {totalCompareItems}
-                                                </span> */}
+                                            <span className="pro-count blue">
+                                                   2
+                                                </span> 
                                             </a>
                                         </Link>
                                     </div>
-                                    <div className="jba-header-action-icon">
-                                        <Link href="/shop-wishlist">
-                                            <a>
-                                                <img
-                                                    alt="Evara"
-                                                    src="/img/themepic/icons/icon-heart.svg"
-                                                />
-                                                {/* <span className="pro-count white">
-                                                    {totalWishlistItems}
-                                                </span> */}
-                                            </a>
-                                        </Link>
-                                    </div>
+                                
                                     <div className="jba-header-action-icon">
                                         <Link href="/shop-cart">
                                             <a className="mini-cart-icon">
@@ -507,9 +489,9 @@ const Header = ({
                                                     alt="Evara"
                                                     src="/img/themepic/icons/icon-cart.svg"
                                                 />
-                                                {/* <span className="pro-count white">
-                                                    {totalCartItems}
-                                                </span> */}
+                                                <span className="pro-count blue">
+                                                  3
+                                                </span> 
                                             </a>
                                         </Link>
                                         <div className="cart-dropdown-wrap cart-dropdown-hm2">

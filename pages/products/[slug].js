@@ -2,6 +2,7 @@ import React from 'react';
 import ProductMainDetails from '../../components/ecommerce/ProductMainDetails';
 import Link from 'next/link';
 import ProductDetailsnew from '../../components/ecommerce/ProductDetailsnew';
+import SingleBanner from '../../components/elements/SingleBanner';
 // import Breadcrumb from '../../components/layout/Breadcrumbjs';
 
 const Slug = () => {
@@ -20,6 +21,7 @@ const Slug = () => {
                 </div>
             </div>
             <ProductDetailsnew />
+            <SingleBanner />
         </>
     );
 }

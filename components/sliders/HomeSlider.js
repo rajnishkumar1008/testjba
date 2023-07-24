@@ -40,7 +40,7 @@ const HomeSlider = () => {
             </Swiper>
 
             <div
-                className="slider-arrow slider-arrow-2 carausel-6-columns-arrow"
+                className="slider-arrow"
             >
                 <span className="slider-btn slider-prev slick-arrow custom_prev_n">
                 <i className="bi bi-chevron-left"></i>
