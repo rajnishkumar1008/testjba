@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SwiperCore, { Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide ,Autoplay,FreeMode } from "swiper/react";
 import SingleProduct from "./../ecommerce/SingleProduct";
 
 SwiperCore.use([Navigation]);
@@ -11,13 +11,39 @@ const RelatedSlider = () => {
     return (
         <>
             <Swiper
-                slidesPerView={4}
-                spaceBetween={30}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                1300: {
+                  slidesPerView: 3,
+                  spaceBetween: 10,
+                },
+                1400: {
+                  slidesPerView: 4,
+                  spaceBetween: 10,
+                },
+              }}
+
                 
                 navigation={{
                     prevEl: ".custom_prev_n",
                     nextEl: ".custom_next_n",
                 }}
+              
                 className="custom-class"
             >
              

@@ -10256,3 +10256,114 @@ box-shadow:none
     font-weight: 500;
     color: #4b4b4b;
 }
+/*cart*/
+.jba-cart-product{
+  display: flex;
+}
+.jba-cart-product .p-pic{
+  margin-right:30px
+}
+.jba-cart-product .p-pic img{
+  max-width: 202px;
+}
+.jba-cart-product .product-dec{}
+.jba-cart-product .product-dec h3{
+  font-size: 16px;
+  color: #3e4751;
+  margin-bottom: 5px;
+}
+.jba-cart-product .product-dec .sku{
+  font-size: 12px;
+  color: #a5a9ae;
+  display:block;
+  margin-bottom: 15px;
+}
+.jba-cart-product .product-dec .p-price{
+  font-size: 18px;
+  display:block;
+  margin-bottom: 15px;
+  color:#6abbc1;
+  font-weight: 600;
+}
+.jba-cart-product .product-dec .old-p{
+  color: #3e4751;
+  font-size: 14px;
+  display:inline-block;
+  text-decoration: line-through;
+  margin-left:15px
+}
+.jba-cart-product .product-dec .p-size{
+  display:flex;
+  margin-bottom:20px
+  
+}
+.jba-cart-product .product-dec .p-size .size-head{
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e4751;
+}
+.jba-cart-product .product-dec .p-size .form-select{
+
+}
+.jba-cart-product .product-dec .p-size .form-select{ font-size: 14px;
+  font-weight: 600;
+  color: #3e4751;
+  border-radius: 0;
+  border: none;
+  margin-top: -3px;
+    padding: 5px 29px 7px 5px;
+}
+.jba-cart-product .product-dec .p-size .form-select option{
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e4751;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.quantity__minus,
+.quantity__plus {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  background: #f7d7d6;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  
+}
+.quantity__minus:hover,
+.quantity__plus:hover {
+  background: #575b71;
+  color: #fff;
+} 
+.quantity__minus {
+  border-radius: 3px 0 0 3px;
+}
+.quantity__plus {
+  border-radius: 0 3px 3px 0;
+}
+.quantity__input {
+  width: 50px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #f7d7d6;
+  border-bottom: 2px solid #f7d7d6;
+  border-left: 1px solid #f7d7d6;
+  border-right: 2px solid #f7d7d6;
+  background: #fff;
+  color: #8184a1;
+}
+.quantity__minus:link,
+.quantity__plus:link {
+ color: #d66c6c;
+} 
+.quantity__minus:visited,
+.quantity__plus:visited {
+  color: #d66c6c;
+}

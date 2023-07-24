@@ -502,7 +502,7 @@ const Header = ({
                                                             <a>
                                                                 <img
                                                                     alt="Evara"
-                                                                    src="/img/shop/thumbnail-3.jpg"
+                                                                    src="https://shop.jewelsbyanu.com/media/wysiwyg/smartwave/porto/homepage/Earrings.png"
                                                                 />
                                                             </a>
                                                         </Link>
@@ -510,16 +510,12 @@ const Header = ({
                                                     <div className="shopping-cart-title">
                                                         <h4>
                                                             <Link href="/shop-grid-right">
-                                                                <a>
-                                                                    Plain
-                                                                    Striola
-                                                                    Shirts
-                                                                </a>
+                                                                <a>Pearl Diamond Ring</a>
                                                             </Link>
                                                         </h4>
                                                         <h3>
                                                             <span>1 × </span>
-                                                            $800.00
+                                                            ₹3000
                                                         </h3>
                                                     </div>
                                                     <div className="shopping-cart-delete">
@@ -536,7 +532,7 @@ const Header = ({
                                                             <a>
                                                                 <img
                                                                     alt="Evara"
-                                                                    src="/img/shop/thumbnail-4.jpg"
+                                                                    src="https://shop.jewelsbyanu.com/media/wysiwyg/smartwave/porto/homepage/Earrings.png"
                                                                 />
                                                             </a>
                                                         </Link>
@@ -544,15 +540,12 @@ const Header = ({
                                                     <div className="shopping-cart-title">
                                                         <h4>
                                                             <Link href="/shop-grid-right">
-                                                                <a>
-                                                                    Macbook Pro
-                                                                    2022
-                                                                </a>
+                                                                <a>Pearl Diamond Ring</a>
                                                             </Link>
                                                         </h4>
                                                         <h3>
                                                             <span>1 × </span>
-                                                            $3500.00
+                                                            ₹3000
                                                         </h3>
                                                     </div>
                                                     <div className="shopping-cart-delete">
@@ -568,7 +561,7 @@ const Header = ({
                                                 <div className="shopping-cart-total">
                                                     <h4>
                                                         Total
-                                                        <span>$383.00</span>
+                                                        <span>₹6000</span>
                                                     </h4>
                                                 </div>
                                                 <div className="shopping-cart-button">
