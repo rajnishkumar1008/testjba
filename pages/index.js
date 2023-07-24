@@ -9,6 +9,7 @@ import PromoBannerTwo from '../components/elements/PromoBannerTwo';
 import PromoBannerThree from '../components/elements/PromoBannerThree';
 import PromoBannerFour from '../components/elements/PromoBannerFour';
 import BottomServiceList from '../components/elements/BottomServiceList';
+import HomeSlider from '../components/sliders/HomeSlider';
 
 export default function Home() {
   return (
@@ -39,26 +40,21 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-         
+    
           
           <section>
             <div className='container'>
             <div className="section-title">
               <h2>Featured Categories</h2>
               </div>
-              <div className='row'>
-                <div className='col-lg-3'>
-                  <SingleProduct />
-                </div>
-                <div className='col-lg-3'>
-                  <SingleProduct />
-                </div>
-                <div className='col-lg-3'>
-                  <SingleProduct />
-                </div>
-                <div className='col-lg-3'>
-                  <SingleProduct />
-                </div>
+              <div className="row">
+               
+                 <div className="col-lg-12">
+                    <div className='related-products position-relative'>
+                    <HomeSlider />
+                    </div>
+                 </div>
+            
               </div>
             </div>
           </section>

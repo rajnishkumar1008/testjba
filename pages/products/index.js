@@ -1,6 +1,6 @@
 import React from "react";
 import { RiCloseCircleLine } from "react-icons/ri";
-import SingleProduct from "../../components/ecommerce/SingleProduct";
+import SingleProductShop from "../../components/ecommerce/SingleProductShop";
 const Index = () => {
   return (
     <>
@@ -56,31 +56,31 @@ const Index = () => {
                 <div className="list-of-products-p ">
                     <div className="row">
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                         <div className="col-lg-4">
-                            <SingleProduct />
+                            <SingleProductShop />
                         </div>
                     </div>
                 </div>

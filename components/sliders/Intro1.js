@@ -1,3 +1,4 @@
+import Link from "next/link";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -22,14 +23,15 @@ const Intro1 = () => {
                     <div
                         className="single-hero-slider single-animation-wrap"
                     >
-                        <img src="/img/slider/banner-1.jpg" alt="img" />
+                        <Link href="/products/"><a><img src="/img/slider/banner-1.jpg" alt="img" /></a></Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                 <div
                         className="single-hero-slider single-animation-wrap"
                     >
-                        <img src="/img/slider/banner-1.jpg" alt="img" />
+                         <Link href="/products/"><a> <img src="/img/slider/banner-1.jpg" alt="img" /></a></Link>
+                       
                     </div>
                 </SwiperSlide>
             </Swiper>

@@ -11557,3 +11557,44 @@ box-shadow:none
 .pro-single-details-inf li{
   margin-bottom:5px
 }
+.user-prd-comm{
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-prd-comm .rept-col{
+  flex: 30%;
+    max-width: 30%;
+    padding: 15px 15px;
+    margin: 10px;
+    border: 1px solid #eddede;
+}
+
+.user-prd-comm .rept-col span{
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b4b4b;
+  display:block
+}
+.user-prd-comm .rept-col p{
+  font-size: 14px;
+  color: #545b64;
+}
+.action-comment{
+  text-align:center;
+  display:block;
+  margin:40px 0px
+}
+.my-rev{
+  background-color: #d66c6c;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius:0;
+    border:none
+}
+.my-rev:hover{
+  background-color: #f4d5d2;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4b4b4b;
+}

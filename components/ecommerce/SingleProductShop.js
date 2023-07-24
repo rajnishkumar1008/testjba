@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import QuickView from "./QuickView";
-const SingleProduct = () => {
+const SingleProductShop = () => {
   return (
     <>
       <div className="product-cart-wrap mb-30">
         <div className="product-img-action-wrap">
           <div className="product-img product-img-zoom">
-            <Link href="/products/">
+            <Link href="/products/ring/">
               <a>
                 <img
                   className="default-img"
@@ -54,12 +54,12 @@ const SingleProduct = () => {
         </div>
         <div className="product-content-wrap">
           <div className="product-category">
-            <Link href="/products/">
+            <Link href="/products/ring/">
               <a></a>
             </Link>
           </div>
           <h2>
-            <Link href="/products/">
+            <Link href="/products/ring/">
               <a>Pearl Diamond Ring</a>
             </Link>
           </h2>
@@ -85,4 +85,4 @@ const SingleProduct = () => {
   );
 };
 
-export default SingleProduct;
+export default SingleProductShop;

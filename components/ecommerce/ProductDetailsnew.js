@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import RelatedSlider from "../sliders/Related";
 import {
   Accordion,
   AccordionBody,
@@ -278,7 +279,37 @@ const ProductDetailsnew = () => {
                           <AccordionHeader targetId="3" tag="h3">
                             Reviews
                           </AccordionHeader>
-                          <AccordionBody accordionId="3"></AccordionBody>
+                          <AccordionBody accordionId="3">
+                            <div className="user-prd-comm">
+                              <div className="rept-col">
+                                <span>Vivek Gururani</span>
+                                <p>It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use!</p>
+                              </div>
+                              <div className="rept-col">
+                                <span>Susil Behera</span>
+                                <p>It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use! It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use!</p>
+                              </div>
+                              <div className="rept-col">
+                                <span>Abhinav</span>
+                                <p>It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use!</p>
+                              </div>
+                              <div className="rept-col">
+                                <span>Susil Behera</span>
+                                <p>It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use!</p>
+                              </div>
+                              <div className="rept-col">
+                                <span>Abhinav</span>
+                                <p>It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use!</p>
+                              </div>
+                              <div className="rept-col">
+                                <span>Vivek Gururani</span>
+                                <p>It is a very beautiful bracelet that works perfectly as a rakhi as well.Great for daily use!</p>
+                              </div>
+                            </div>
+                            <div className="action-comment">
+                              <button type="button" className="btn btn-lg btn-warning my-rev" >Add Your Review</button>
+                            </div>
+                          </AccordionBody>
                         </AccordionItem>
                       </Accordion>
                     </div>
@@ -288,6 +319,16 @@ const ProductDetailsnew = () => {
             </div>
           </div>
         </div>
+        <div className="row mt-60">
+                                            <div className="col-12">
+                                                <h3 className="section-title style-1 mb-30">Related products</h3>
+                                            </div>
+                                            <div className="col-12">
+                                                <div className="row related-products position-relative">
+                                                    <RelatedSlider />
+                                                </div>
+                                            </div>
+                                        </div>
       </div>
     </section>
   );
