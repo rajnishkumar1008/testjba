@@ -2,10 +2,15 @@ import React from "react";
 import Breadcrumb from "../components/layout/Breadcrumb";
 import BottomServiceList from "../components/elements/BottomServiceList";
 import Link from "next/link";
+import Head from "next/head";
 
 const NewPassword = () => {
   return (
     <div>
+         <Head>
+      <title>New Password | JBA</title>
+        <meta name="description" content="Loose Diamond Supplier, Manufacturer & Exporter from India" />
+      </Head>
       <Breadcrumb />
       <section className="ptb-60">
         <div className="container">

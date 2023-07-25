@@ -1,9 +1,14 @@
 import React from "react";
 import { RiCloseCircleLine } from "react-icons/ri";
 import SingleProductShop from "../../components/ecommerce/SingleProductShop";
+import Head from "next/head";
 const Index = () => {
   return (
     <>
+       <Head>
+      <title>Products | JBA</title>
+        <meta name="description" content="Loose Diamond Supplier, Manufacturer & Exporter from India" />
+      </Head>
       <section className="pt-40">
         <div className="container">
           <div className="product-header">

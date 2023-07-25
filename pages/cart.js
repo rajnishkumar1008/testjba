@@ -2,10 +2,15 @@ import Link from "next/link";
 import React from "react";
 import CartItems from "../components/ecommerce/CartItems";
 import CartTotal from "../components/ecommerce/CartTotal";
+import Head from "next/head";
 
 const Cart = () => {
   return (
     <>
+         <Head>
+      <title>Cart | JBA</title>
+        <meta name="description" content="Loose Diamond Supplier, Manufacturer & Exporter from India" />
+      </Head>
       <div className="page-header breadcrumb-wrap mt-50 mb-50">
         <div className="container">
           <div className="breadcrumb">
