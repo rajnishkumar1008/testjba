@@ -1,15 +1,15 @@
 import Link from "next/link";
 import React from "react";
-import CartTotal from "../components/ecommerce/CartTotal";
-import CartAddress from "../components/ecommerce/CartAddress";
+import CartTotalFinal from "../components/ecommerce/CartTotalFinal";
 import Head from "next/head";
+import CartPayment from "../components/ecommerce/CartPayment";
 Head
 
 const CartShipping = () => {
   return (
     <>
      <Head>
-      <title>Cart Shipping | JBA</title>
+      <title>Cart Payment | JBA</title>
         <meta name="description" content="Loose Diamond Supplier, Manufacturer & Exporter from India" />
       </Head>
 
@@ -34,12 +34,12 @@ const CartShipping = () => {
               <div className="row">
                 <div className="col-lg-7">
                   <div className="cart-righ-b">
-                  <h1 className="heading-cart">Shipping</h1>
-                    <CartAddress />
+                  <h1 className="heading-cart">Payment</h1>
+                   <CartPayment />
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div><CartTotal /></div>
+                  <div><CartTotalFinal /></div>
                 </div>
               </div>
             </div>

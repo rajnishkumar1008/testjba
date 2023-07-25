@@ -67,7 +67,7 @@ const ProductDetailsnew = () => {
                     <div className="jab-product-option">
                       <form>
                         <div className="mb-3">
-                          <label for="Size" className="form-label">
+                          <label htmlFor="Size" className="form-label">
                             Select Size
                           </label>
                           <select

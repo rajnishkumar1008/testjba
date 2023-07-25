@@ -1,11 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;500;800;900&display=swap');
 /***
- Theme Name: Nest
- Description: Grocery, Super Market, eCommerce HTML Template
+ Theme Name: JAB
+ Description: Loose Diamond Supplier, Manufacturer & Exporter from India
  Version: 1.0
- License: GNU General Public License v2 or later
- License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ 
 ==============================
 TABLE CONTENT
  Import Google Fonts
@@ -497,7 +496,7 @@ textarea:-ms-input-placeholder {
   opacity: 1;
 }
 
-input {
+/* input {
   border: 1px solid #ececec;
   border-radius: 0px;
   height: 46px;
@@ -506,7 +505,7 @@ input {
   padding-left: 20px;
   font-size: 16px;
   width: 100%;
-}
+} */
 
 input:focus {
   background: transparent;
@@ -9707,12 +9706,18 @@ footer .hotline img {
   display: flex;
 }
 .jba-subscriber input {
-  height: 50px;
-  border-radius: 0;
   background: transparent;
   color: #fff;
   flex: 80% 1;
-    width: 80%;
+  width: 80%;
+  border: 1px solid #ececec;
+  border-radius: 0px;
+  height: 46px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 100%;
 }
 .jba-subscriber input::placeholder{
   color:#fff
@@ -10597,11 +10602,54 @@ background-color:#d66c6c
 .shipp-address{
   width:70%
 }
-.shipp-address h3{
+.shipp-address h3, .cart-payment h3{
   color: #3e4751;
   font-size: 16px;
   margin-bottom:20px
 }
 .shipp-address .form-control{
   height:44px
+}
+.shipp-address .jba-checkbox-cart{
+  display: flex;
+}
+.shipp-address .form-label{
+  font-size: 16px;
+  color: #3e4751;
+  margin: 15px 0px;
+}
+.shipp-address .jba-checkbox-cart .form-check-label{
+  font-size: 14px;
+  font-weight: 500;
+  color:#3e4751
+}
+.shipp-address .jba-checkbox-cart a{
+  font-size: 14px;
+    font-weight: 500;
+    color: #d66c6c !important;
+    margin-left: 10px;
+}
+/*cart payment method*/
+.cart-payment{
+  width:40%
+}
+.cart-payment .form-check{
+  border: 1px solid #f4d5d2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.cart-payment .form-check .form-check-input{
+  margin-left: 0;
+  margin-right: 10px;
+  font-size:14px
+}
+.cart-payment  .form-check-label{
+  font-size: 14px;
+  color: #545b64;
+  margin-bottom: 0;
+  display: block;
+}
+.cart-payment .form-check-input:checked{
+  background-color: #d66c6c;
+    border-color: #d66c6c;
 }
