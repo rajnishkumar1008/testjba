@@ -78,6 +78,7 @@ const CartTotal = () => {
 
         <div className="price-tab">
             <table className="sub-total">
+                <tbody>
                 <tr>
                     <th>Subtotal</th>
                     <td>30,998</td>
@@ -90,14 +91,17 @@ const CartTotal = () => {
                     <th>Shipping(standard)</th>
                     <td>FREE</td>
                 </tr>
+                </tbody>
                 
             </table>
             <hr className="border-hr-colo" />
             <table className="total-price">
+            <tbody>
                 <tr>
                     <th>Total Cost</th>
                     <td>₹ 29,498</td>
                 </tr>
+                </tbody>
             </table>
             <div className="check-out mt-50">
             <button type="submit" className="btn btn-primary">Place Order</button>

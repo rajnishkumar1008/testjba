@@ -12,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang='en-UA'>
         <Head>
-        <title>Loose Diamond Supplier, Manufacturer & Exporter from India | JBA</title>
+
         <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>

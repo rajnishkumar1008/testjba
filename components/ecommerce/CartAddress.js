@@ -1,4 +1,5 @@
 import React from 'react';
+import { Toast,ToastHeader,ToastBody } from "reactstrap";
 
 const CartAddress = () => {
     return (
@@ -42,7 +43,7 @@ const CartAddress = () => {
   <label className="form-label">Billing Address</label>
     <div className="form-check">
       <input className="form-check-input" type="checkbox" id="gridCheck" />
-      <label className="form-check-label" for="gridCheck" >
+      <label className="form-check-label" htmlFor="gridCheck" >
       Use a diffrent Billing Address | Add a New Address
 
 
@@ -50,6 +51,28 @@ const CartAddress = () => {
     </div>
   </div>
 </form>
+
+<div>
+  <button
+    color="primary"
+    onClick={function noRefCheck(){}}
+  >
+    Click Me
+  </button>
+  <br />
+  <br />
+  <Toast isOpen={false}>
+    <ToastHeader toggle={function noRefCheck(){}}>
+      Toast title
+    </ToastHeader>
+    <ToastBody>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </ToastBody>
+  </Toast>
+</div>
+
+
+
         </div>
     );
 }

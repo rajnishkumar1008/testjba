@@ -5,7 +5,10 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     formats: ['image/avif', 'image/webp']
-   }
+   },
+   plugins: {
+    autoprefixer: {},
+  }
   //  env:{
   //   BACKEND_URL:'https://blognew.dynamicssquare.ca'
   // }
