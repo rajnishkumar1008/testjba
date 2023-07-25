@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import CartItems from "../components/ecommerce/CartItems";
 import CartTotal from "../components/ecommerce/CartTotal";
+import CartAddress from "../components/ecommerce/CartAddress";
 
-const Cart = () => {
+const CartShipping = () => {
   return (
     <>
       <div className="page-header breadcrumb-wrap mt-50 mb-50">
@@ -14,6 +14,7 @@ const Cart = () => {
             </Link>
             <span></span>Shop
             <span></span>Cart
+            <span></span>Shipping
           </div>
         </div>
       </div>
@@ -26,9 +27,7 @@ const Cart = () => {
                 <div className="col-lg-7">
                   <div className="cart-righ-b">
                   <h1 className="heading-cart">Your Cart</h1>
-                  <CartItems />
-                  <CartItems />
-                  <CartItems />
+                    <CartAddress />
                   </div>
                 </div>
                 <div className="col-lg-5">
@@ -43,4 +42,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartShipping;

@@ -104,7 +104,7 @@ input[type=number]:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
   outline: none !important;
-  -webkit-box-shadow: none;
+  -webkit-box-shadow: none !important;
           box-shadow: none;
 }
 
@@ -149,8 +149,9 @@ input[type=number]:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
   outline: none !important;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+          boder-color:none
 }
 
 
@@ -509,7 +510,7 @@ input {
 
 input:focus {
   background: transparent;
-  border: 1px solid #BCE3C9;
+  border: 1px solid #f4d5d2 !important;
 }
 
 input.square {
@@ -961,11 +962,11 @@ label {
 }
 
 .form-control {
-  border: 1px solid #f0e9ff;
-  border-radius: 10px;
-  height: 48px;
+  border: 1px solid #f4d5d2;
+  border-radius: 0px;
+  height: 44px;
   padding-left: 18px;
-  font-size: 16px;
+  font-size: 14px;
   background: transparent;
 }
 
@@ -10257,31 +10258,45 @@ box-shadow:none
     color: #4b4b4b;
 }
 /*cart*/
+.heading-cart{
+  margin-bottom:40px;
+  font-size: 32px;
+  color: #3e4751;
+}
 .jba-cart-product{
   display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7d7d6;
+  position:relative
 }
 .jba-cart-product .p-pic{
-  margin-right:30px
+  margin-right: 30px;
+    margin-bottom: -9px;
 }
 .jba-cart-product .p-pic img{
-  max-width: 202px;
+  max-width: 200px;
 }
-.jba-cart-product .product-dec{}
+.jba-cart-product .product-dec{
+  margin-top:12px;
+}
 .jba-cart-product .product-dec h3{
+
+}
+.jba-cart-product .product-dec h3 a{
   font-size: 16px;
   color: #3e4751;
-  margin-bottom: 5px;
+  display: block;
 }
 .jba-cart-product .product-dec .sku{
   font-size: 12px;
   color: #a5a9ae;
   display:block;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .jba-cart-product .product-dec .p-price{
   font-size: 18px;
   display:block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color:#6abbc1;
   font-weight: 600;
 }
@@ -10340,12 +10355,7 @@ box-shadow:none
   background: #575b71;
   color: #fff;
 } 
-.quantity__minus {
-  border-radius: 3px 0 0 3px;
-}
-.quantity__plus {
-  border-radius: 0 3px 3px 0;
-}
+
 .quantity__input {
   width: 50px;
   height: 30px;
@@ -10366,4 +10376,232 @@ box-shadow:none
 .quantity__minus:visited,
 .quantity__plus:visited {
   color: #d66c6c;
+}
+.deliver-date{
+  position: absolute;
+    bottom: 20px;
+    right: 0;
+    background: #fef3f3;
+    display: flex;
+    align-items: stretch;
+    padding: 5px 15px;
+}
+.deliver-date img{margin-right: 10px;}
+.deliver-date span{
+  color: #545b64;
+  font-size: 14px;
+}
+
+.cart-total-price{
+  padding-left: 15px;
+}
+.cart-total-price h3{
+  font-size: 16px;
+  color: #3e4751;
+  margin-bottom:25px
+}
+.prom-sect{
+  display: flex;
+  margin-bottom:20px
+}
+.prom-sect .left{
+  background: #fef3f3;
+    padding: 10px 20px;
+    margin-right: 5px;
+    flex: 50%;
+    max-width: 50%;
+    position:relative
+}
+.prom-sect .left:last-child{
+  margin:0
+}
+.prom-sect .left span{
+  display:block;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.prom-sect .left .o-code{
+  font-weight:bold;
+  color: #4b4b4b;
+}
+.prom-sect .left .offer{
+  color: #4b4b4b;
+}
+.prom-sect .left .term{
+  text-align: right;
+  margin-top: 5px;
+}
+.prom-sect .left .term a{
+  color: #d66c6c;
+  font-size: 12px;
+  font-weight: 500;
+}
+.prom-sect .left .offer-check-mess{
+  position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    background: #d9d9d9;
+    font-size: 9px;
+    padding: 3px 10px 3px 0px;
+  color: #222;
+}
+.prom-sect .left .offer-check-mess:before{
+  position: absolute;
+    content: '';
+    border-right: 0px solid #ddd0;
+    border-left: 30px solid #ddd0;
+    border-bottom: 0px solid #ddd0;
+    border-top: 19px solid #d9d9d9;
+    z-index: 2;
+    width: 42px;
+    top: 0px;
+    left: -42px;
+}
+.popover-header.my-bi-hd{
+  font-size: 14px;
+  color: #000;
+  border-radius: 0;
+}
+.popover-body.my-bi{
+
+}
+.popover-body.my-bi ul{
+  list-style: disc;
+    padding-left: 20px;
+}
+.popover-body.my-bi ul li {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.close-popover{
+  position: absolute;
+    right: 3px;
+    font-size: 28px;
+    top: -8px;
+}
+.close-popover a{
+  font-size:24px;
+  color:red !important
+}
+.dissable{
+  background: #f9f9f9 !important;
+    opacity: .9;
+    pointer-events: none;
+}
+.dissable .term a{
+  color: #8c8c8c !important;
+}
+.hide-po .popover{
+  border-radius:0px
+}
+.form-prom-app{}
+.form-prom-app .form-control{
+  border-radius: 0;
+  height: 40px;
+  border-color: #f4d5d2;
+  font-size: 14px;
+  border-right:none
+}
+.form-prom-app .btn{
+  border-radius: 0;
+    border-left: none;
+    border-color: #f4d5d2;
+    font-size: 14px;
+    font-weight: 500;
+    color: #d66c6c;
+}
+.form-prom-app .btn:hover{
+  background:transparent;
+  color:#000;
+   border-color: #f4d5d2;
+}
+.form-prom-app .btn:active,.form-prom-app .btn:focus-visible{
+  background:transparent;
+  color:#000;
+  box-shadow:none;
+  border-color: #f4d5d2;
+}
+.form-prom-app  .fomr-message{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.form-prom-app  .fomr-message p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #6abbc1;
+}
+.form-prom-app  .fomr-message span{
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #6abbc1;
+}
+.border-hr{
+  color: #f4d5d2;
+    opacity: 1;
+}
+.order-summery{}
+.order-summery h3{
+  font-size: 16px;
+  color: #3e4751;
+}
+
+.price-tab{
+
+}
+.price-tab table th,.price-tab table td{
+  border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #545b64;
+    padding: 5px 0px;
+}
+.price-tab table td{
+ text-align:right
+}
+.price-tab table th{
+
+}
+.price-tab .sub-total{
+  padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.border-hr-colo{
+  color: #f7d7d6;
+    margin: 1rem 0rem;
+    opacity: 1;
+}
+.price-tab .total-price tr>th{
+  font-size: 16px;
+  font-weight: 600;
+}
+.price-tab .total-price tr>td{
+  font-size: 18px;
+  font-weight: 600;
+  color: #6abbc1;
+}
+.price-tab .check-out {
+  text-align:right
+}
+
+
+.price-tab .check-out .btn{
+background-color:#d66c6c
+}
+.cart-righ-b{
+  border-right:1px solid #a5a9ae;
+  padding-right: 18px;
+}
+.shipp-address{
+  width:70%
+}
+.shipp-address h3{
+  color: #3e4751;
+  font-size: 16px;
+  margin-bottom:20px
+}
+.shipp-address .form-control{
+  height:44px
 }
