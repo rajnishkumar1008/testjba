@@ -27,7 +27,7 @@ const Slug = () => {
             </div>
             <ProductDetailsnew />
             <SingleBanner />
-<ProductMainDetails />
+{/* <ProductMainDetails /> */}
         </>
     );
 }
