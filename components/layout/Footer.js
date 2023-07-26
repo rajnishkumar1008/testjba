@@ -24,8 +24,7 @@ const Footer = () => {
                                         </a>
                                         </Link>
                                         {/* <p className="font-lg text-heading">
-                                            Awesome grocery store website
-                                            template
+                                          
                                         </p> */}
                                     </div>
                                     <div className="jab-mobile-social-icon">
