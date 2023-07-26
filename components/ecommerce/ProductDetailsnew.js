@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RelatedSlider from "../sliders/Related";
+import { useRouter } from 'next/router';
 
 import {
   Accordion,
@@ -18,6 +19,12 @@ const ProductDetailsnew = () => {
     } else {
       setOpen(id);
     }
+  };
+
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/cart/');
   };
 
   return (
@@ -121,6 +128,7 @@ const ProductDetailsnew = () => {
                         className="btn btn-1"
                         type="button"
                         id="button-addon1"
+                        onClick={handleClick}
                       >
                         Add to Cart
                       </button>
@@ -128,6 +136,7 @@ const ProductDetailsnew = () => {
                         className="btn btn-2"
                         type="button"
                         id="button-addon2"
+                        onClick={handleClick}
                       >
                         Buy Now
                       </button>

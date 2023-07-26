@@ -2,13 +2,13 @@ import React from "react";
 import { UncontrolledPopover, PopoverHeader, PopoverBody } from "reactstrap";
 import { useRouter } from 'next/router';
 
-const CartTotal = () => {
+const CartTotalAddress = () => {
 
 
   const router = useRouter();
 
   const handleClick = () => {
-    router.push('/cart-shipping/');
+    router.push('/cart-payment/');
   };
 
 
@@ -114,7 +114,7 @@ const CartTotal = () => {
                 </tbody>
             </table>
             <div className="check-out mt-50">
-            <button onClick={handleClick} type="submit" className="btn btn-primary">Place Order</button>
+            <button onClick={handleClick} type="submit" className="btn btn-primary">Continue</button>
             </div>
         </div>
       </div>
@@ -122,4 +122,4 @@ const CartTotal = () => {
   );
 };
 
-export default CartTotal;
+export default CartTotalAddress;

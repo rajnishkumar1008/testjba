@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import CartTotal from "../components/ecommerce/CartTotal";
+import CartTotalAddress from "../components/ecommerce/CartTotalAddress";
 import CartAddress from "../components/ecommerce/CartAddress";
 import Head from "next/head";
 Head
@@ -39,7 +39,7 @@ const CartShipping = () => {
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div><CartTotal /></div>
+                  <div><CartTotalAddress /></div>
                 </div>
               </div>
             </div>

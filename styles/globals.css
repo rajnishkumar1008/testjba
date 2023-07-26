@@ -10587,7 +10587,7 @@ box-shadow:none
 }
 
 
-.price-tab .check-out .btn{
+.price-tab .check-out .btn ,.price-btn .btn{
 background-color:#d66c6c
 }
 .cart-righ-b{

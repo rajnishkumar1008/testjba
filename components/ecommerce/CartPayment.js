@@ -66,7 +66,7 @@ const CartPayment = () => {
             Cash On Delivery
           </label>
         </div>
-        <div className="check-out mt-50">
+        <div className="check-out mt-50 price-btn">
             <button type="submit" className="btn btn-primary">
             Pay ₹ 15,899
             </button>
