@@ -10262,7 +10262,7 @@ box-shadow:none
   margin-top:12px;
 }
 .jba-cart-product .product-dec h3{
-
+  margin-bottom: 5px;
 }
 .jba-cart-product .product-dec h3 a{
   font-size: 16px;
@@ -10315,6 +10315,9 @@ box-shadow:none
   font-weight: 600;
   color: #3e4751;
 }
+
+
+
 .quantity {
   display: flex;
   align-items: center;
@@ -10899,10 +10902,120 @@ display:none;
   color: #3e4751;
   margin-bottom:2px;
   display:block;
+  position:relative
 }
+.order-si-in .order-id a{
+  position: absolute;
+    right: 0;
+}
+
 .order-si-in .time-place{
   display:block;
   font-size: 14px;
   color: #a5a9ae;
   margin-bottom:40px
+}
+.return-op h3{
+  font-size: 16px;
+  color: #3e4751;
+}
+.return-op p{
+  color: #545b64;
+  font-size: 12px;
+}
+.return-op .button-area .btn{
+  display:inline-block;
+
+}
+.return-op .button-area .btn-1{
+  border: 1px solid #d66c6c;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #d66c6c;
+  margin-right:20px
+}
+.return-op .button-area .btn-2{
+  border: 1px solid #f4d5d2;
+  background-color:#f4d5d2;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b4b4b;
+  border-radius: 0;
+}
+.cust-card-order textarea {
+  width: 70%;
+  min-height: 125px;
+  margin-top: 20px;
+  border-radius: 0;
+  border: 1px solid #f4d5d2;
+}
+.cust-card-order textarea::placeholder{
+  color: #c0bfbf;
+  font-size:14px
+
+}
+.user-track{}
+.user-track h3, .user-address h3{
+  font-size: 16px;
+  font-weight: 500;
+  color: #3e4751;
+  margin-bottom:30px
+}
+.form-track {
+  width:50%;
+  margin-bottom:30px
+}
+.form-track .form-control{
+  height:48px;
+  margin-bottom:30px
+}
+.form-track .btn{
+  border: 1px solid #d66c6c;
+  background-color:#d66c6c;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 0;
+}
+.form-track .btn:hover{
+  background-color:#f4d5d2;
+  border-color: #f4d5d2;
+  color:#000
+}
+.user-address{}
+.user-address .address-list{
+  background-color:#fef3f3;
+  padding:20px 
+}
+.user-address .address-list .head{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3e4751;
+  margin-bottom:10px
+}
+.user-address .address-list .head a{
+color:#d66c6c;
+font-size: 14px;
+}
+.user-address .address-list .head a:hover{
+  color:black
+}
+.user-address .address-list .info{
+  color: #3e4751;
+}
+.btn-addrres .btn{
+  font-size: 16px;
+  font-weight: 500;
+  color: #d66c6c;
+  border: 1px solid #d66c6c;
+  border-radius: 0;
+  margin:40px 0px
+}
+.btn-addrres .btn:hover{
+  background-color:#f4d5d2;
+  border-color: #f4d5d2;
+  color:#000
 }

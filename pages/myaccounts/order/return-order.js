@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import UserSideBar from "../../components/user/UserSideBar";
-import UserAccTrackOrder from "../../components/user/UserAccTrackOrder";
+import UserSideBar from "../../../components/user/UserSideBar";
+import UserSingleOrderInfo from "../../../components/user/UserSingleOrderInfo";
 
-const TrackOrder = () => {
+
+const ReturnOrder = () => {
   return (
     <>
       <Head>
@@ -38,7 +39,7 @@ const TrackOrder = () => {
                                 <UserSideBar />
                             </div>
                             <div className="col-lg-8  col-md-8">
-                             <UserAccTrackOrder />
+                             <UserSingleOrderInfo />
                             </div>
                         </div>
                     </div>
@@ -49,4 +50,4 @@ const TrackOrder = () => {
   );
 };
 
-export default TrackOrder;
+export default ReturnOrder;
