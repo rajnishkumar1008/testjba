@@ -1,4 +1,6 @@
 import React from "react";
+import ReactModelAddress from "../elements/ReactModelAddress";
+
 
 const UserAccAddress = () => {
   return (
@@ -47,10 +49,12 @@ const UserAccAddress = () => {
           <div className="col-lg-12">
           <div className="btn-addrres">
             <a href="" className="btn btn-md">Add New Address</a>
+            {/* <ReactModelAddress /> */}
           </div>
           </div>
         </div>
       </div>
+     
     </>
   );
 };

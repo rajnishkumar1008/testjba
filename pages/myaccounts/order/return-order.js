@@ -2,7 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import UserSideBar from "../../../components/user/UserSideBar";
-import UserSingleOrderInfo from "../../../components/user/UserSingleOrderInfo";
+
+import UserSingleReturn from "../../../components/user/UserSingleReturn";
 
 
 const ReturnOrder = () => {
@@ -39,7 +40,7 @@ const ReturnOrder = () => {
                                 <UserSideBar />
                             </div>
                             <div className="col-lg-8  col-md-8">
-                             <UserSingleOrderInfo />
+                           <UserSingleReturn />
                             </div>
                         </div>
                     </div>

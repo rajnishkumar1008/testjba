@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import UserSideBar from '../../../components/user/UserSideBar';
-import UserAccOrder from '../../../components/user/UserAccOrder';
 import UserSingleOrderInfo from '../../../components/user/UserSingleOrderInfo';
 const Order = () => {
     return (

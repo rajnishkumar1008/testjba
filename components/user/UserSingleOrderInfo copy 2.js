@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CartItemsUserReview from '../ecommerce/CartItemsUserReview';
+import CartReturnItemsUser from '../ecommerce/CartReturnItemsUser';
 import ProgressSteps from '../elements/ProgressSteps';
 import Link from 'next/link';
 
@@ -24,7 +24,7 @@ const UserSingleOrderInfo = () => {
       <span className='time-place'>Placed on: Placed on 10th Apr 2022</span>
       <ProgressSteps steps={steps} progressPercent={progressPercent} />
       <div className='cust-card-order'>
-      <CartItemsUserReview />
+      <CartReturnItemsUser />
       </div>
     </div>
   );

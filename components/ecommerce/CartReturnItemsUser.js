@@ -37,7 +37,7 @@ const CartReturnItemsUser = () => {
               id="1"
             />
             <label className="form-check-label" htmlFor="1">
-            Not happy with product
+              Not happy with product
             </label>
           </div>
           <div>
@@ -48,7 +48,7 @@ const CartReturnItemsUser = () => {
               id="2"
             />
             <label className="form-check-label" htmlFor="2">
-            Received broken piece
+              Received broken piece
             </label>
           </div>
           <div>
@@ -59,7 +59,7 @@ const CartReturnItemsUser = () => {
               id="3"
             />
             <label className="form-check-label" htmlFor="3">
-            Size is Incorrect
+              Size is Incorrect
             </label>
           </div>
           <div>
@@ -70,22 +70,29 @@ const CartReturnItemsUser = () => {
               id="4"
             />
             <label className="form-check-label" htmlFor="4">
-            Other Reason
+              Other Reason
             </label>
           </div>
         </div>
         <div className="mb-3">
-  <textarea className="form-controls" id="exampleFormControlTextarea1" rows="3" placeholder="Write your Additional Information (Optional)
+          <textarea
+            className="form-controls"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Write your Additional Information (Optional)
 
-"></textarea>
-  <p>Our executive will call you with in 2 days
-
-</p>
-</div>
-<div className="button-area">
-<a href="#" className="btn btn-md btn-1">Confirm Return</a>
-<a href="#" className="btn btn-md btn-2">Cancel</a>
-</div>
+"
+          ></textarea>
+          <p>Our executive will call you with in 2 days</p>
+        </div>
+        <div className="button-area">
+          <a href="#" className="btn btn-md btn-1">
+            Confirm Return
+          </a>
+          <a href="#" className="btn btn-md btn-2">
+            Cancel
+          </a>
+        </div>
       </div>
     </>
   );
