@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 
-Head;
-
 const Policy = () => {
   return (
     <>
